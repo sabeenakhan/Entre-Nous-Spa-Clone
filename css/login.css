@@ -1,0 +1,145 @@
+/* Login-section */
+.login {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .row {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 60px;
+    display: flex;
+    gap: 70px;
+    justify-content: space-around;
+}
+.login .row .col {
+    width: 50%;
+}
+.login .row .left h2 {
+    font-size: 32px;
+    font-family: second-font;
+    font-weight: 500;
+}
+.login .row .left input {
+    width: 420px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+.login .row .left .check {
+    width: 15px;
+    height: 15px;
+    margin-top: 25px;
+    position: relative;
+}
+.login .row .left .check::after {
+    content: 'Remember me';
+    position: absolute;
+    left: 20px;
+    width: 120px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.8);
+}
+.login .row .left .username {
+    margin-top: 30px;
+}
+.login .row .left label {
+    font-size: 18px;
+    color: rgba(0,0,0,0.8);
+}
+.login .row .left label span{
+    color: red;
+}
+.login .row .left .sub button{
+    width: 420px;
+    height: 42px;
+    position: relative;
+    border: none;
+    background-color: rgba(184, 153, 90);
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.login .row .left .sub button i{
+    font-size: 18px;
+    margin-left: 120px;
+    transition: all .3s linear;
+}
+.login .row .left .sub button:hover i{
+    margin-left: 140px;
+}
+.login .row .left .sub button::after{
+    content: 'LOG IN'; 
+    position: absolute;
+    left: 140px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.login .row .left a{
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(184, 153, 90);
+    transition: all .3s linear;
+}
+.login .row .left a:hover{
+    color: rgba(184, 153, 90);
+}
+
+
+.login .row .right h2 {
+    font-size: 32px;
+    font-family: second-font;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.login .row .right input {
+    width: 420px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+.login .row .right label {
+    font-size: 18px;
+    color: rgba(0,0,0,0.8);
+}
+.login .row .right label span{
+    color: red;
+}
+.login .row .right p{
+    font-size: 14px;
+    padding: 10px 0;
+    width: 450px;
+}
+.login .row .right .sub button{
+    width: 420px;
+    height: 42px;
+    position: relative;
+    border: none;
+    background-color: rgba(184, 153, 90);
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.login .row .right .sub button i{
+    font-size: 18px;
+    margin-left: 120px;
+    transition: all .3s linear;
+}
+.login .row .right .sub button:hover i{
+    margin-left: 140px;
+}
+.login .row .right .sub button::after{
+    content: 'SIGN UP'; 
+    position: absolute;
+    left: 140px;
+    font-size: 15px;
+    font-weight: 600;
+}

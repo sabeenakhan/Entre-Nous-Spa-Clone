@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" href="./icon/favicon-16x16.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Schedule An Appointment At Entre Nous Med Spa in Menlo Park</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/schedule.css">
+</head>
+
+<body>
+
+    <!-- ==== HEADER ==== -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo.png" alt="EN"></a>
+            </div>
+            <div class="nav" id="navid">
+                <nav>
+                    <ul>
+                        <li><a href="schedule.html">SCHEDULE</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="consultation.html">INSTANT CONSULTATION</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="login.html">LOG IN</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="tel:[650] 363-0300">[650] 363-0300</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <button class="openbtn nav__toggle" id="nav-toggle" onclick="openNav()">
+                <i class="fa-solid fa-bars nav__burger"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==== SIDEBAR ==== -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <i class="fa-solid fa-xmark nav__close"></i>
+        </a>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>EXPLORE</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Meet The Team</a></li>
+                        <li><a href="#">Upcoming Events</a></li>
+                        <li><a href="#">Membership</a></li>
+                        <li><a href="#">Specials</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Store</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>SERVICES</h3>
+                    <ul>
+                        <li><a href="#">Injectable & Non-Invasive</a></li>
+                        <li><a href="#">Laser & Energy Based Treatments</a></li>
+                        <li><a href="#">Hair & Baby</a></li>
+                        <li><a href="#">Aesthetician Services</a></li>
+                        <li><a href="#" class="arrow">View All <i class="fa-solid fa-arrow-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="col-2">
+                    <h3>FOLLOW US</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>NEWSLETTER SIGN UP</h3>
+                    <form action="#">
+                        <div class="form-con">
+                            <input class="mail" type="email">
+                            <input class="submit" type="submit" value="→">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==== CONTACT ==== -->
+    <div class="contact">
+        <div class="row">
+            <div class="col left">
+                <h2>CONTACT US</h2>
+                <h3>ADDRESS</h3>
+                <a href="#">1047 El Camino Real <br> &nbsp;
+                    Menlo Park, CA 94025</a>
+                <h3>PHONE</h3>
+                <a href="#">[650] 363-0300</a>
+                <h3>HOURS</h3>
+                <h4>Monday - Friday</h4>
+                <p> 8:00 am - 6:00 pm</p>
+                <h5>Saturday</h5>
+                <p>10:00 am - 4:00 pm</p>
+                <h5>Sunday</h5>
+                <p>Closed</p>
+            </div>
+            <div class="col right">
+                <form action="#">
+                    <label for="">Name*</label>
+                    <div class="name">
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                    <label for="">Email*</label>
+                    <div class="email">
+                        <input type="email">
+                    </div>
+                    <label for="">Phone*</label>
+                    <div class="phone">
+                        <input type="tel">
+                    </div>
+
+                    <div class="day-time">
+                        <div class="label-sp">
+                            <label for="">Prefered day</label>
+                            <label class="time-leb" for="">Prefered time</label>
+                        </div>
+                        <div class="dropdown">
+                            <select name="dropdown-1" id="">
+                                <option value="monday">Monday</option>
+                                <option value="tuesday">Tuesday</option>
+                                <option value="wednesday">Wednesday</option>
+                                <option value="thursday">Thursday</option>
+                                <option value="friday">Friday</option>
+                                <option value="saturday">Saturday</option>
+                            </select>
+                            <select name="dropdown-2" id="">
+                                <option value="morning">Morning</option>
+                                <option value="eafternoon">Early Afternoon</option>
+                                <option value="lafternoon">Late Afternoon</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label for="">How can we help?*</label>
+                    <div class="textarea">
+                        <textarea name="textarea" id=""></textarea>
+                    </div>
+                    <div class="sub">
+                        <button> <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==== MAP ==== -->
+    <div class="map-section">
+        <div class="container">
+            <div class="row">
+                <div class="col content">    
+                    <h2>Free street parking is available throughout the downtown area.</h2>
+                    <a href="#">Get Directions <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="col map">
+                    <div class="container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.3620616822377!2d-73.96545592507584!3d40.68802303908484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bb2fab58e61%3A0x80b355fd5b432733!2sEntre%20Nous!5e0!3m2!1sen!2sin!4v1739093918768!5m2!1sen!2sin" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==== FOOTER ==== -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="top">
+                <a href="index.html">
+                    <img src="./images/logo.svg" alt="">
+                </a>
+                <h3>
+                    <img src="./images/footer-slogan.svg" alt="">
+                </h3>
+            </div>
+            <div class="mid">
+                <div class="row">
+                    <div class="col col-1">
+                        <div class="inner-row">
+                            <div class="inner-col-1">
+                                <h3>GET IN TOUCH</h3>
+                                <div class="address">
+                                    <h4>Address</h4>
+                                    <a href="#">1047 El Camino Real <br>
+                                        Menlo Park, CA 94025</a>
+                                </div>
+                                <div class="mob">
+                                    <h4>Phone</h4>
+                                    <a href="#">[650] 363-0300</a>
+                                </div>
+                                <div class="social">
+                                    <h4>Follow Us</h4>
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="inner-col-2">
+                                <h3>HOURS</h3>
+                                <div class="time-1">
+                                    <h4>Monday-Friday</h4>
+                                    <p>8:00 am-6:00 pm</p>
+                                </div>
+                                <div class="time-2">
+                                    <h4>Saturday</h4>
+                                    <p>10:00 am-4:00 pm</p>
+                                </div>
+                                <div class="time-3">
+                                    <h4>Sunday</h4>
+                                    <p>Closed</p>
+                                </div>
+                            </div>
+                            <div class="inner-col-3">
+                                <h3>EXPLORE</h3>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Schedule</a></li>
+                                    <li><a href="#">Store</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">TouchMD Login</a></li>
+                                    <li><a href="#">Newsletter Sign Up</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-2">
+                        <div class="footer-logo">
+                            <img src="./images/logo-favicon.png" width="80%" alt="">
+                        </div>
+                        <div class="content">
+                            <p>it's just between us</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="container">
+                    <div class="content-1">
+                        <p>All right reserved - 2025 © Entre Nous</p>
+                    </div>
+                    <div class="content-2">
+                        <a href="#">Web Design in Kansas City</a>
+                        <span>by</span>
+                        <a href="#">Lifted Logic</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

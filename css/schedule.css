@@ -1,0 +1,162 @@
+
+/* CONTACT */
+.contact{
+    width: 100%;
+}
+.contact .row{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 70px 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .row .col{
+    width: 50%;
+}
+.contact .row .left h2{
+    font-size: 52px;
+    font-family: second-font;
+    font-weight: 400;
+    padding: 5px 0 20px 5px;
+}
+.contact .row .left h3{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 16px 0 10px 5px;
+}
+.contact .row .left a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0px 0px 0px 5px;
+}
+.contact .row .left h4{
+    font-size: 18px;
+    padding: 2px 0 2px 5px;
+    font-weight: 600;
+}
+.contact .row .left h5{
+    font-size: 18px;
+    padding: 14px 0 2px 5px;
+    font-weight: 600;
+}
+.contact .row .left p{
+    font-size: 17px;
+    padding: 0px 0 0px 5px;
+}
+.contact .row .right{
+    color: rgba(0, 0, 0, 0.5);
+}
+.contact .row .right form .name{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .row .right form .name input{
+    width: 210px;
+    height: 40px;
+}
+.contact .row .right form div{
+    padding: 10px 0;
+}
+.contact .row .right form input{
+    width: 480px;
+    height: 40px;
+    padding: 8px;
+}
+.contact .row .right form .day-time .label-sp{
+    width: 480px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .row .right form .day-time .label-sp .time-leb{
+    margin-left: 65px;
+}
+.contact .row .right form .day-time .label-sp label{
+    width: 50%;
+}
+.contact .row .right form .day-time .dropdown{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .row .right form .day-time .dropdown select{
+    width: 210px;
+    height: 40px;
+    font-size: 15px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.contact .row .right form textarea{
+    width: 480px;
+    height: 160px;
+    padding: 8px;
+}
+.contact .row .right form .sub button{
+    width: 320px;
+    height: 42px;
+    position: relative;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+}
+.contact .row .right form .sub button i{
+    font-size: 18px;
+    margin-left: 60px;
+    transition: all .3s linear;
+}
+.contact .row .right form .sub button:hover i{
+    margin-left: 80px;
+}
+.contact .row .right form .sub button::after{
+    content: 'SUBMIT'; 
+    position: absolute;
+    left: 80px;
+    font-size: 16px;
+}
+
+
+/* MAP */
+.map-section{
+    width: 100%;
+}
+.map-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.map-section .container .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 170px;
+}
+.map-section .container .row .col{
+    width: 50%;
+}
+.map-section .container .row .content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.map-section .container .row .content h2{
+    font-size: 48px;
+    font-family: second-font;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.map-section .container .row .content a{
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid;
+    width: 220px;
+    padding: 12px 0;
+    padding-left: 35px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.map-section .container .row .content a i{
+    margin-left: 16px;
+    transition: all .3s linear;
+}
+.map-section .container .row .content a:hover i{
+    margin-left: 26px;
+}

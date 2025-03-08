@@ -294,4 +294,117 @@ nav ul li a:hover {
     opacity: 0;
 }
 
+/* CONFIDENTIAL-SECTION */
+.confidential {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 100px 5px;
+}
+.confidential .row {
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.confidential .row .one {
+    width: 50%;
+    height: 450px;
+}
+.confidential .row .one h2 {
+    font-family: second-font;
+    font-size: 56px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 10px 0 25px 0;
+}
+.confidential .row .one h2 span {
+    color: rgba(184, 153, 90);
+}
+.confidential .row .one h4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 27px;
+    padding-bottom: 25px;
+}
+.confidential .row .one p {
+    text-align: center;
+    font-size: 16.5px;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+.confidential .row .two {
+    height: 420px;
+    width: 50%;
+    position: relative;
+}
+.confidential .row .two .img {
+    width: 65%;
+    height: 370px;
+    position: relative;
+    left: 12%;
+}
+.confidential .row .two .img img {
+    width: 100%;
+    height: 100%;
+}
+.confidential .row .two .video-button {
+    height: 200px;
+    width: 235px;
+    background-color: black;
+    position: absolute;
+    right: 23%;
+    bottom: -13%;
+    cursor: pointer;
+}
+.confidential .row .two .video-button::before {
+    content: 'WATCH VIDEO';
+    position: absolute;
+    bottom: 15%;
+    left: 29%;
+    color: whitesmoke;
+}
+.confidential .row .two .video-button:hover .content .circle {
+    background-color: white;
+}
+.confidential .row .two .video-button .content {
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgba(184, 153, 90);
+    position: absolute;
+    left: 28%;
+    top: 16%;
+    border-radius: 50%;
+}
+.confidential .row .two .video-button .content .circle {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+    border-radius: 50%;
+    background-color: rgba(122, 117, 117, 0.6);
+    transition: all .1s linear;
+}
+.confidential .row .two .video-button .content .circle .inner-circle {
+    height: 68px;
+    width: 68px;
+    position: absolute;
+    top: calc(50% - 34px);
+    left: calc(50% - 34px);
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confidential .row .two .video-button .content .circle .inner-circle i {
+    color: rgba(184, 153, 90);
+}
 

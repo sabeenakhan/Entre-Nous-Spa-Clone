@@ -1,0 +1,29 @@
+@font-face {
+    font-family: first-font;
+    src: url(../fonts/cursive.otf);
+}
+
+@font-face {
+    font-family: second-font;
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: third-font;
+    src: url(../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: fourth-font;
+    src: url(../fonts/Rasendrya.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+}

@@ -408,3 +408,106 @@ nav ul li a:hover {
     color: rgba(184, 153, 90);
 }
 
+/* OFFER-SECTION */
+.offer {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 70px 5px;
+}
+.offer .row {
+    margin: 0 auto;
+    height: 560px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer .row .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.offer .row .left .left-wrap {
+    margin-left: 100px;
+    width: 370px;
+    text-align: center;
+}
+.offer .row .left .left-wrap .heading {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.offer .row .left .left-wrap .heading h2 {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgba(184, 153, 90);
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+.offer .row .left .left-wrap .sub-heading {
+    padding-top: 15px;
+}
+.offer .row .left .left-wrap .sub-heading .para1 {
+    color: rgba(184, 153, 90);
+}
+.offer .row .left .left-wrap .sub-heading .para2 {
+    font-size: 14px;
+    padding: 0 20px;
+}
+.offer .row .left .left-wrap .sub-heading p:first-child {
+    padding-bottom: 8px;
+    padding-top: 12px;
+}
+.offer .row .left .left-wrap .sub-heading:nth-child(5) p:first-child {
+    padding: 5px 0;
+}
+.offer .row .left .left-wrap .sub-heading:nth-child(5) p:last-child {
+    padding-bottom: 25px;
+}
+.offer .row .left .left-wrap .sub-heading:nth-child(5) .bottom-border {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.offer .row .right {
+    width: 50%;
+    height: 100%;
+    padding: 20px 0;
+}
+.offer .row .right .inner-wrap {
+    margin-left: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.offer .row .right .inner-wrap h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.offer .row .right .inner-wrap a {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 55px 10px 30px;
+    font-weight: 600;
+    width: 140px;
+    color: white;
+    position: relative;
+}
+.offer .row .right .inner-wrap a i {
+    position: absolute;
+    left: 90px;
+    top: 12px;
+    transition: all .1s ease-in-out;
+}
+.offer .row .right .inner-wrap a:hover i {
+    left: 100px;
+}
+
+
